@@ -1,9 +1,3 @@
-# gam.domain
---
-A script to assist with switching OAuth files for GAM when using multiple Google Workspace instances.
---
-
-
 1) Place both the domain.txt and gam.domain.py files into GAM's installed directory.
 
 2) Open up gam.domain.py and fill in variables with the domain information and Oauth file directories.
