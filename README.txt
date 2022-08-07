@@ -1,6 +1,6 @@
 # gam.domain
 --
-A script to assist with switching OAuth files for GAM when using miltiple Google Workspace instances.
+A script to assist with switching OAuth files for GAM when using multiple Google Workspace instances.
 --
 
 
