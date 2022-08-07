@@ -61,7 +61,7 @@ while copy:
             quit()
         else:
             current_domain = domain1
-            pickle.dump(current_domain, open('domain.txt', 'wb'))
+            pickle.dump(current_domain, open(str(gam_folder) + 'domain.txt', 'wb'))
             print('\nSwitching domain to: ' + domain1)
             for file_name in os.listdir(domain1_folder):
                 source = domain1_folder + file_name
@@ -77,7 +77,7 @@ while copy:
             quit()
         else:
             current_domain = domain2
-            pickle.dump(current_domain, open('domain.txt', 'wb'))
+            pickle.dump(current_domain, open(str(gam_folder) + 'domain.txt', 'wb'))
             print('\nSwitching domain to: ' + domain2)
             for file_name in os.listdir(domain2_folder):
                 source = domain2_folder + file_name
@@ -93,7 +93,7 @@ while copy:
             quit()
         else:
             current_domain = domain3
-            pickle.dump(current_domain, open('domain.txt', 'wb'))
+            pickle.dump(current_domain, open(str(gam_folder) + 'domain.txt', 'wb'))
             print('\nSwitching domain to: ' + domain3)
             for file_name in os.listdir(domain3_folder):
                 source = domain3_folder + file_name
@@ -109,7 +109,7 @@ while copy:
             quit()
         else:
             current_domain = domain4
-            pickle.dump(current_domain, open('domain.txt', 'wb'))
+            pickle.dump(current_domain, open(str(gam_folder) + 'domain.txt', 'wb'))
             print('\nSwitching domain to: ' + domain4)
             for file_name in os.listdir(domain4_folder):
                 source = domain4_folder + file_name
@@ -125,7 +125,7 @@ while copy:
             quit()
         else:
             current_domain = domain5
-            pickle.dump(current_domain, open('domain.txt', 'wb'))
+            pickle.dump(current_domain, open(str(gam_folder) + 'domain.txt', 'wb'))
             print('\nSwitching domain to: ' + domain5)
             for file_name in os.listdir(domain5_folder):
                 source = domain5_folder + file_name
@@ -139,7 +139,7 @@ while copy:
             quit()
         else:
             current_domain = domain6
-            pickle.dump(current_domain, open('domain.txt', 'wb'))
+            pickle.dump(current_domain, open(str(gam_folder) + 'domain.txt', 'wb'))
             print('\nSwitching domain to: ' + domain6)
             for file_name in os.listdir(domain6_folder):
                 source = domain6_folder + file_name
