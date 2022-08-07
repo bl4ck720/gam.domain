@@ -150,4 +150,4 @@ while copy:
                     copy = False
 #   End copy loop
     if not copy:
-        print('\nSwitch complete.')
+        print('\nSwitch complete.\n')
