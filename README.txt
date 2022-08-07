@@ -5,8 +5,10 @@
   a) GAM Directory
     - The working directory for the GAM install.
     
-  b) Domains
+  b) OAuth Directories
+    - The path for the directory that has the oauth2.txt, oauth2service.json, and client_secrets.json files for each domain.
+    
+  c) Domains
     - The names or domains you are working with.
     
-  c) OAuth Directories
-    - The path for the directory that has the oauth2.txt, oauth2service.json, and client_secrets.json files for each domain.
+
