@@ -8,14 +8,6 @@ os.system("clear")
 #   GAM Directory
 gam_folder = '/path/to/gam/directory/'
 
-#   Domains
-domain1 = 'domain1.com'
-domain2 = 'domain2.org'
-domain3 = 'domain3.net'
-domain4 = 'domain4.edu'
-domain5 = 'domain5.gov'
-domain6 = 'domain6.info'
-
 #   Oauth directories
 domain1_folder = '/path/to/domain1/oauth/files/'
 domain2_folder = '/path/to/domain2/oauth/files/'
@@ -23,6 +15,14 @@ domain3_folder = '/path/to/domain3/oauth/files/'
 domain4_folder = '/path/to/domain4/oauth/files/'
 domain5_folder = '/path/to/domain5/oauth/files/'
 domain6_folder = '/path/to/domain6/oauth/files/'
+
+#   Domains
+domain1 = 'domain1.com'
+domain2 = 'domain2.org'
+domain3 = 'domain3.net'
+domain4 = 'domain4.edu'
+domain5 = 'domain5.gov'
+domain6 = 'domain6.info'
 
 #   Opens saved pickle variable 'current_domain'
 with open(str(gam_folder) + 'domain.txt', 'rb') as domainpickle:
