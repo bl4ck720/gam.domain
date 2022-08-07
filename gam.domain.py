@@ -16,10 +16,6 @@ domain4 = 'domain4.edu'
 domain5 = 'domain5.gov'
 domain6 = 'domain6.info'
 
-#   Pickle file creation
-#current_domain = 'NO DOMAIN'
-#pickle.dump(current_domain, open('domain.txt', 'wb'))
-
 #   Oauth directories
 domain1_folder = '/path/to/domain1/oauth/files/'
 domain2_folder = '/path/to/domain2/oauth/files/'
